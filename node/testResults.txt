@@ -1,0 +1,12 @@
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35msaveError[0m ENOENT: no such file or directory, open '/home/caloewen/benchmarking/node/nodeInstalls/package.json'
+[0m[37;40mnpm[0m [0m[34;40mnotice[0m[35m[0m created a lockfile as package-lock.json. You should commit this file.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m ENOENT: no such file or directory, open '/home/caloewen/benchmarking/node/nodeInstalls/package.json'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m nodeInstalls No description
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m nodeInstalls No repository field.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m nodeInstalls No README data
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m nodeInstalls No license field.
+[0m
+
+real	0m10.285s
+user	0m9.486s
+sys	0m9.614s

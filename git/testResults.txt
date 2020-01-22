@@ -1,0 +1,5 @@
+Cloning into 'offline-install'...
+
+real	0m16.390s
+user	0m28.786s
+sys	0m3.209s
