@@ -1,0 +1,38 @@
+dbench version 4.00 - Copyright Andrew Tridgell 1999-2004
+
+Running for 10 seconds with load '/usr/share/dbench/client.txt' and minimum warmup 2 secs
+failed to create barrier semaphore 
+1 of 2 processes prepared for launch   0 sec
+2 of 2 processes prepared for launch   0 sec
+releasing clients
+   2      5449    90.96 MB/sec  warmup   1 sec  latency 43.826 ms
+   2     18545    67.05 MB/sec  execute   1 sec  latency 42.771 ms
+   2     23546    58.51 MB/sec  execute   2 sec  latency 56.454 ms
+   2     29099    60.43 MB/sec  execute   3 sec  latency 66.689 ms
+   2     34962    61.06 MB/sec  execute   4 sec  latency 28.166 ms
+   2     39769    59.22 MB/sec  execute   5 sec  latency 59.706 ms
+   2     43985    56.65 MB/sec  execute   6 sec  latency 54.536 ms
+   2     49273    56.99 MB/sec  execute   7 sec  latency 28.006 ms
+   2     53473    55.50 MB/sec  execute   8 sec  latency 45.111 ms
+   2     57490    54.14 MB/sec  execute   9 sec  latency 55.821 ms
+   2  cleanup  10 sec
+   0  cleanup  10 sec
+
+ Operation      Count    AvgLat    MaxLat
+ ----------------------------------------
+ NTCreateX      16874     0.045     4.918
+ Close          12380     0.006    10.734
+ Rename           710     0.132     3.084
+ Unlink          3435     0.160    40.550
+ Qpathinfo      15321     0.019     2.863
+ Qfileinfo       2666     0.004     0.148
+ Qfsinfo         2809     0.007     0.146
+ Sfileinfo       1341     0.248    13.452
+ Find            5918     0.070     0.936
+ WriteX          8313     0.093    26.124
+ ReadX          26522     0.011     4.434
+ LockX             56     0.007     0.013
+ UnlockX           56     0.005     0.009
+ Flush           1173    13.468    66.665
+
+Throughput 54.136 MB/sec  2 clients  2 procs  max_latency=66.689 ms

@@ -10,7 +10,12 @@ cd git
 ./runBenchmark.sh
 cd ..
 
-# Run npm TBD
+# Run npm
 cd node
+./runBenchmark.sh
+cd ..
+
+# Run dbench tests
+cd dbench
 ./runBenchmark.sh
 cd ..
